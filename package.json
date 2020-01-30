@@ -27,8 +27,8 @@
     "----- scripts -----": "",
     "serve:api": "nx serve api",
     "serve:review": "nx serve review",
-    "e2e:review-watch": "nx e2e review-e2e --watch"              
-},
+    "e2e:review-watch": "nx e2e review-e2e --watch"
+  },
   "private": true,
   "dependencies": {
     "@emotion/core": "10.0.27",
@@ -36,10 +36,22 @@
     "document-register-element": "1.13.1",
     "express": "4.17.1",
     "react": "16.12.0",
-    "react-dom": "16.12.0"
+    "react-dom": "16.12.0",
+    "@angular/animations": "^8.2.0",
+    "@angular/common": "^8.2.0",
+    "@angular/compiler": "^8.2.0",
+    "@angular/core": "^8.2.0",
+    "@angular/forms": "^8.2.0",
+    "@angular/platform-browser": "^8.2.0",
+    "@angular/platform-browser-dynamic": "^8.2.0",
+    "@angular/router": "^8.2.0",
+    "core-js": "^2.5.4",
+    "rxjs": "~6.4.0",
+    "zone.js": "^0.9.1"
   },
   "devDependencies": {
     "@babel/preset-react": "7.8.3",
+    "@nrwl/angular": "^8.12.0",
     "@nrwl/cypress": "8.12.0",
     "@nrwl/eslint-plugin-nx": "8.12.0",
     "@nrwl/express": "8.12.0",
@@ -70,6 +82,11 @@
     "ts-jest": "24.0.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
-    "typescript": "~3.5.3"
+    "typescript": "~3.5.3",
+    "@angular/compiler-cli": "^8.2.0",
+    "@angular/language-service": "^8.2.0",
+    "@angular-devkit/build-angular": "^0.803.23",
+    "codelyzer": "~5.0.1",
+    "jest-preset-angular": "7.0.0"
   }
 }
